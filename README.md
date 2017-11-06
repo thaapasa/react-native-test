@@ -1,7 +1,14 @@
 # react-native-test
 This is a simpe React native test app, with TypeScript.
 
-This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app),
+with TypeScript enabled. See more instructions at
+[create-react-native-app-typescript](https://github.com/mathieudutour/create-react-native-app-typescript).
+
+Project structure was generated with the command:
+```
+create-react-native-app react-native-test --scripts-version=react-native-scripts-ts
+```
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
