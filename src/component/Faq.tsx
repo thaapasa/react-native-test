@@ -14,8 +14,8 @@ export default class Faq extends React.Component<FaqType, { open: Boolean }> {
     render() {
         return (
             <View style={styles.container}>
-                <Text>{ this.props.title }</Text>
-                { this.state.open && <Text>Open</Text> }
+                <Text onPress={() => this.setState({open: !this.state.open})}>{ this.props.title }</Text>
+                { this.state.open && <Text>{this.props.description}</Text> }
             </View>
         );
     }
