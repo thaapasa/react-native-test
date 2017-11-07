@@ -10,6 +10,8 @@ Project structure was generated with the command:
 create-react-native-app react-native-test --scripts-version=react-native-scripts-ts
 ```
 
+See [create-react-native-app versions](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md).
+
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 ## Table of Contents
