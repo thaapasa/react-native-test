@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-native-scripts-ts": "1.5.0",
     "@types/react": "^16.0.5",
     "@types/react-native": "^0.48.4",
     "@types/react-test-renderer": "^15.5.4",
     "jest-expo-ts": "^20.0.0",
+    "react-native-scripts-ts": "1.5.0",
     "react-native-typescript-transformer": "^1.1.4",
     "react-test-renderer": "16.0.0-alpha.12",
     "tslib": "^1.7.1",
@@ -19,7 +19,7 @@
     "eject": "react-native-scripts-ts eject",
     "android": "react-native-scripts-ts android",
     "ios": "react-native-scripts-ts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
+    "test": "node ./node_modules/jest-expo-ts/node_modules/.bin/jest"
   },
   "jest": {
     "preset": "jest-expo-ts"
