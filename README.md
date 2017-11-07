@@ -12,6 +12,19 @@ create-react-native-app react-native-test --scripts-version=react-native-scripts
 
 See [create-react-native-app versions](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md).
 
+## Dependencies
+
+- Install `npm`. VSCode at least seems to read `package-lock.json` to see which types are used, and would not work with `yarn.lock`.
+- Install `watchman`. In MacOS, install via Homebrew; the version installed via npm does not work.
+
+## Development
+
+- `npm start` to run expo server
+- `npm test` to run tests
+
+
+# create-react-native-app README
+
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 ## Table of Contents
